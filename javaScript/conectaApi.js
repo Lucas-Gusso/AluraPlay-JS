@@ -4,4 +4,6 @@ async function listaVideos() {
     return conexaoConvertida;
 }
 
-listaVideos();
+export const conectaApi = {
+    listaVideos
+}

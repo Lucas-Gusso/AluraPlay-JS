@@ -18,7 +18,7 @@ function constroiCard(titulo, descricao, url, imagem) {
 
         <img src="${imagem}">
 
-        <h3>Qual é o melhor hardware para programação com Mario Souto</h3>
+        <h3>${titulo}</h3>
 
         <p>${descricao}</p>
     </div>`

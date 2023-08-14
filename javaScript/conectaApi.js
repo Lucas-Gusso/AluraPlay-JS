@@ -10,9 +10,8 @@ async function criaVideo(titulo, descricao, url, imagem) {
         method: "POST",
         headers:
         {
-            "content-type":"application/json"
+            "content-type": "application/json"
         },
-
         body: JSON.stringify(
         {
             titulo: titulo,
@@ -22,8 +21,8 @@ async function criaVideo(titulo, descricao, url, imagem) {
         })
     });
 
-    const conexaoResolvida = await conexao.json();
-    return conexaConvertida;
+    const conexaoConvertida = await conexao.json();
+    return conexaoConvertida;
 }
 
 export const conectaApi = {

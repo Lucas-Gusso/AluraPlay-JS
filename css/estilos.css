@@ -22,6 +22,19 @@ body {
     text-align: center;
 }
 
+.erro {
+    position: relative;   
+    top: 120px;   
+    font-size: 22px;
+    color: var(--azul-medio);       
+}
+
+.alinhar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ESTILOS DO HEADER */
 
 .cabecalho {

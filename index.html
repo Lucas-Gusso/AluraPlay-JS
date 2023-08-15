@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
@@ -21,7 +22,7 @@
             <div class="cabecalho__pesquisar">
 
                 <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
-                <button class="pesquisar__botao" data-botao_pesquisa>
+                <button class="pesquisar__botao" data-botao_pesquisa></button>
 
             </div>
 
@@ -32,7 +33,13 @@
 
     </header>
 
-    <ul class="videos__container" alt="videos alura" data-lista>
+    <section class="erro" data-erro>
+        <!--Mensagem de erro-->
+    </section>
+    
+    
+    <ul class="videos__container" alt="videos alura" data-lista>           
+       
        <!-- vídeos Importados da Api -->
     </ul>
     <script src="./javaScript/mostrarVideos.js" type="module"></script>
